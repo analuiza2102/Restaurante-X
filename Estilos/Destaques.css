@@ -1,0 +1,41 @@
+/* Estilos para a seção "Destaques do Menu" */
+#menu-highlights {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    text-align: center;
+}
+
+#menu-highlights h2 {
+    font-size: 2rem;
+    color: #D32F2F;
+    margin-bottom: 1rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.menu-item {
+    max-width: 15rem;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.menu-item p {
+    font-size: 1.1rem;
+    color: #666;
+    text-align: justify;
+}

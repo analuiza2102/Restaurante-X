@@ -1,0 +1,40 @@
+/* Estilos para a seção "Nossa Equipe" */
+#our-team {
+    background-color: #F9F9F9;
+    padding: 2rem;
+    text-align: center;
+}
+
+#our-team h2 {
+    font-size: 2rem;
+    color: #D32F2F;
+    margin-bottom: 1rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.team-member {
+    max-width: 300px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.team-member p {
+    font-size: 1.1rem;
+    color: #666;
+}
